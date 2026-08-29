@@ -1,1 +1,52 @@
+{
+  "name": "Perzaan-AFK-Bot-v2",
 
+  "bot-account": {
+    "username": "YOUR_BOT_USERNAME",
+    "password": "YOUR_PASSWORD",
+    "type": "offline"
+  },
+
+  "server": {
+    "ip": "veyronia-smp.aternos.me",
+    "port": 34501,
+    "version": "26.2"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 64,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 5000,
+    "max-reconnect-delay": 30000,
+    "creative-on-start": false,
+
+    "anti-afk": {
+      "enabled": true,
+      "interval": 30000,
+      "sneak": false
+    }
+  },
+
+  "movement": {
+    "circle-walk": {
+      "enabled": false,
+      "interval": 5000
+    },
+
+    "random-jump": {
+      "enabled": false,
+      "interval": 10000
+    },
+
+    "look-around": {
+      "enabled": true,
+      "interval": 8000
+    }
+  }
+}
