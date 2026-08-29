@@ -1,1 +1,53 @@
+{
+  "name": "Perzaan-Multi-AFK-Bot",
 
+  "server": {
+    "ip": "veyronia-smp.aternos.me",
+    "port": 34501,
+    "version": "26.2"
+  },
+
+  "bots": [
+
+    {
+      "username": "PerzaanBot1",
+      "password": "",
+      "type": "offline"
+    },
+
+    {
+      "username": "PerzaanBot2",
+      "password": "",
+      "type": "offline"
+    },
+
+    {
+      "username": "PerzaanBot3",
+      "password": "",
+      "type": "offline"
+    },
+
+    {
+      "username": "PerzaanBot4",
+      "password": "",
+      "type": "offline"
+    }
+
+  ],
+
+  "utils": {
+
+    "auto-reconnect": true,
+
+    "reconnect-delay": 5000,
+
+    "anti-afk": {
+
+      "enabled": true,
+
+      "interval": 30000
+
+    }
+
+  }
+}
